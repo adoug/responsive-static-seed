@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,700i');
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -14,6 +13,7 @@ body {
     margin: 0 auto;
     position: relative;
 }
+
 
 /* Text */
 
@@ -49,6 +49,7 @@ p {
 a {
     color: #007eff;
 }
+
 a:visited {
     color: #65b1ff;
 }
@@ -63,8 +64,9 @@ a.btn {
 }
 
 a.btn:hover {
-    background-color: rgba(0,0,0, .3);
+    background-color: rgba(0, 0, 0, .3);
 }
+
 
 /* Header */
 
@@ -85,7 +87,9 @@ header a.logo {
     left: 20px;
 }
 
-header a.logo span { display: none; }
+header a.logo span {
+    display: none;
+}
 
 header div.hero {
     position: absolute;
@@ -100,10 +104,19 @@ header div.hero h1 {
     color: #fff;
 }
 
+
 /* Section - All */
+
 section {
     padding: 0 30px;
 }
+
+section::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 
 /* Section - Main */
 
@@ -126,32 +139,37 @@ section.main .content {
     padding-top: 85px;
 }
 
-section.main aside h3 a {
-    color: #000;
-    text-decoration: none;
+section.main aside h3 a { color: #000; text-decoration: none; }
+section.main aside h3 a:hover { text-decoration: underline; }
+section.main aside .content.trending { background-image: url(../images/icon_star.svg); }
+section.main aside .content.find-it { background-image: url(../images/icon_marker.svg); }
+section.main aside .content.tools { background-image: url(../images/icon_gear.svg); }
+
+
+/* Section - Atmosphere */
+
+section.atmosphere {
+    background-color: #cc6633;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
 }
 
-section.main aside h3 a:hover {
-    text-decoration: underline;
-}
-
-section.main aside .content.trending {
-    background-image: url(../images/icon_star.svg);
-}
-
-section.main aside .content.find-it {
-    background-image: url(../images/icon_marker.svg);
-}
-
-section.main aside .content.tools {
-    background-image: url(../images/icon_gear.svg);
+section.atmosphere article { 
+    padding: 0 20px 0 515px; 
+    background: url(../images/photo_lounge.jpg) no-repeat 0 5px;
+    min-height: 220px;
 }
 
 
+/* Section - How To */
 
+section.how-to { background-color: #eee9d9; position: relative; }
+section.how-to aside { width: 30%; float: left; margin-right: 10px; }
+section.how-to aside .content { padding: 30px 30px 20px 0; }
 
+section.how-to aside .content img { display: block; margin-bottom: 15px; width: 70%; }
 
-
-
-
-
+section.how-to aside .content h4 { margin-bottom: 0; }
+section.how-to aside .content p { margin-bottom: .5em; }
+section.how-to aside .content a { display: inline-block; color: #cc6633; font-weight: 700; }
