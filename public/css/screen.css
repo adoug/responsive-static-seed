@@ -126,6 +126,27 @@ section.main .content {
     padding-top: 85px;
 }
 
+section.main aside h3 a {
+    color: #000;
+    text-decoration: none;
+}
+
+section.main aside h3 a:hover {
+    text-decoration: underline;
+}
+
+section.main aside .content.trending {
+    background-image: url(../images/icon_star.svg);
+}
+
+section.main aside .content.find-it {
+    background-image: url(../images/icon_marker.svg);
+}
+
+section.main aside .content.tools {
+    background-image: url(../images/icon_gear.svg);
+}
+
 
 
 
