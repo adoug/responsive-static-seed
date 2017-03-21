@@ -60,3 +60,38 @@ header {
     background: #cf0004 url(../images/banner_1200.jpg) no-repeat center bottom;
     position: relative;
 }
+
+header a.logo {
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 66px;
+    background: url(../images/logo.svg) no-repeat 0 0;
+    background-size: contain;
+    top: 15px;
+    left: 20px;
+}
+
+header a.logo span { display: none; }
+
+header div.hero {
+    position: absolute;
+    width: 42%;
+    top: 130px;
+    left: 55%;
+}
+
+header div.hero h1 {
+    line-height: 1em;
+    margin: 0 0 30px 0;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
