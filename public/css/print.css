@@ -61,3 +61,9 @@ section.main aside div.content h3 a::after { display: block; font-family: serif;
 section.main aside div.content.trending::before { content:url(../images/icon_star_print.svg); }
 section.main aside div.content.find-it::before { content:url(../images/icon_marker_print.svg); }
 section.main aside div.content.tools::before { content:url(../images/icon_gear_print.svg); }
+
+section.atmosphere { position: relative; margin-bottom: 40px; padding-top: 50px; border-top: 1px solid #ccc; }
+
+section.atmosphere::before { content: url(../images/photo_lounge_print.jpg); }
+
+section.atmosphere article { width: 40%; position: absolute; top: 40px; left: 425px; }
