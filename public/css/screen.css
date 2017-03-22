@@ -315,3 +315,26 @@ footer a:hover { color: #000; }
     section.how-to blockquote p.quote { font-size: 1.1em; line-height: 1.2em; }
     section.how-to blockquote p.credit { font-size: .85em; }
 }
+
+@media screen and (max-width: 760px) {
+    h1 { font-size: 1.8em; }
+    h2 { font-size: 1.4em; }
+    h3 { font-size: 1.1em; }
+
+    a.btn { font-size: 1em; }
+
+    /* Header */
+    header a.logo { width: 145px; height: 60px; }
+    header div.hero { top: 140px; left: 40%; }
+
+    /* Section - Main */
+    section.main { margin-top: 10px; margin-bottom: 10px; }
+    section.main aside div.content { background-size: 55px 55px; padding-top: 60px; }
+
+    /* Section - How To */
+    section.how-to aside div.content img { width: 85%; }
+
+    /* NAvigation */
+    nav { padding-top: 80px; }
+    nav > ul { padding-left: 10px; }
+}
