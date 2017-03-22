@@ -334,7 +334,33 @@ footer a:hover { color: #000; }
     /* Section - How To */
     section.how-to aside div.content img { width: 85%; }
 
-    /* NAvigation */
+    /* Navigation */
     nav { padding-top: 80px; }
     nav > ul { padding-left: 10px; }
+}
+
+@media screen and (max-width: 625px) {
+
+    h1 { font-size: 1em; }
+    h3 { margin-bottom: 0px; }
+    a.btn { font-size: .9em; }
+
+    /* Header */
+    header { height: 160px; background-image: url(../images/banner_625.jpg); background-position: left top; }
+    header a.logo {
+        width: 100%;
+        height: 66px;
+        left: 0px;
+        top: 0px;
+        background-color: rgba(0,0,0,.65);
+        background-size: 112px 46px;
+        background-position: 20px center;
+    }   
+
+    header div.hero { width: 300px; top: 85px; left: 130px; }
+    header div.hero h1 { margin-bottom: 10px; }
+
+
+    /* Navigation */
+    nav { position: static; width: auto; padding: 20px 15px; background-color: #4b0a0c; }
 }
