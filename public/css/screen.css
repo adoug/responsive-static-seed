@@ -369,6 +369,31 @@ footer a:hover { color: #000; }
         background-position: 20px 5px;
     }
 
+    /* Section - Atmosphere */
+    section.atmosphere article { padding: 160px 20px 0px 0px; background-size: 300px auto; min-height: initial; }
+
+    /* Section - How To */
+    section.how-to aside { width: 100%; float: none; margin: 0; position: relative; }
+    section.how-to aside div.content { padding: 20px 20px 20px 150px; }
+    section.how-to aside div.content p { font-size: .9em; }
+    section.how-to aside div.content img { 
+        display: inline-block;
+        width: 125px;
+        position: absolute;
+        top: 30px;
+        left: 0px;
+    }
+
+    section.how-to blockquote {
+        margin: 0 20px 0 40px;
+        width: 90%;
+        padding: 1px 0px 20px 0px;
+        position: relative;
+    }
+
+    section.how-to blockquote p.credit { margin-bottom: 0px; }
+
+
 
     /* Navigation */
     nav { position: static; width: auto; padding: 20px 15px; background-color: #4b0a0c; }
