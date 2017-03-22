@@ -68,7 +68,7 @@ section.atmosphere::before { content: url(../images/photo_lounge_print.jpg); }
 
 section.atmosphere article { width: 40%; position: absolute; top: 40px; left: 425px; }
 
-section.how-to { padding-top: 50px; border-top: 1px solid #ccc; }
+section.how-to { padding-top: 50px; border-top: 1px solid #ccc; page-break-inside: avoid; }
 
 section.how-to aside { width: 25%; float: left; margin: 0 35px 0 0; }
 
@@ -114,4 +114,22 @@ section.how-to blockquote p.credit::before {
     content:'\2014';
     position: absolute;
     left: 0px; top: -1px;
+}
+
+footer { border-top: 1px solid #ccc; position: relative; min-height: 200px; padding: 20px 0 0 170px; }
+
+footer::after { content:url(../images/qr_andrewdouglas.png); position: absolute; top: 20px; left: 0px; }
+
+footer a { display: block; margin-top: 15px; }
+
+footer a::after { display: block; }
+
+footer div.content { padding-left: 20px; }
+
+footer div.content::after{
+    content: 'This page was printed from http://google.com';
+    display: block;
+    margin-top: 30px;
+    font-style: italic;
+    font-style: .9em;
 }
