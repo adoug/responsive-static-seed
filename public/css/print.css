@@ -67,3 +67,51 @@ section.atmosphere { position: relative; margin-bottom: 40px; padding-top: 50px;
 section.atmosphere::before { content: url(../images/photo_lounge_print.jpg); }
 
 section.atmosphere article { width: 40%; position: absolute; top: 40px; left: 425px; }
+
+section.how-to { padding-top: 50px; border-top: 1px solid #ccc; }
+
+section.how-to aside { width: 25%; float: left; margin: 0 35px 0 0; }
+
+section.how-to div.content img { display: none; }
+
+section.how-to aside:nth-child(1) div.content::before { content:url(../images/photo_seating_print.jpg); }
+
+section.how-to aside:nth-child(2) div.content::before { content:url(../images/photo_lighting_print.jpg); }
+
+section.how-to blockquote {
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    position: relative;
+}
+            
+section.how-to blockquote::before {
+    content:'\201c';
+    color: #ccc;
+    font-size: 5em;
+    font-family: serif;
+    display: inline-block;
+    position: absolute;
+    top: -20px;
+    left: -45px;
+}
+
+section.how-to blockquote p.quote {
+    font-style: italic;
+    font-size: 1.4em;
+    color: #888;
+}
+
+section.how-to blockquote p.quote::after {
+    content:'\201d'; font-family: serif;
+}
+
+section.how-to blockquote p.credit {
+    padding-left: 20px; position: relative;
+}
+
+section.how-to blockquote p.credit::before {
+    content:'\2014';
+    position: absolute;
+    left: 0px; top: -1px;
+}
