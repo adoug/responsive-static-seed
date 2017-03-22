@@ -285,3 +285,17 @@ footer .content { display: inline; }
 footer a { margin-left: 30px; color: #777; }
 footer a:visited { color: #777; }
 footer a:hover { color: #000; }
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+
+    h1 { font-size: 2.4em; }
+
+    /* Header */
+    header div.hero { left: 50%; }
+    header div.hero h1 { margin-bottom: 20px; }
+
+    /* Section - Atmosphere */
+    section.atmosphere article { padding-left: 400px; background-size: 375px auto; }
+}
