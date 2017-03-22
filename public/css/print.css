@@ -45,3 +45,19 @@ header a.logo span { display: none; }
 header div.hero { width: 75%; position: absolute; top: 110px; left: 20px; }
 
 header div.hero a::after { display: block; }
+
+section { margin-bottom: 50px; }
+
+section::after { content: ''; display: block; clear: both; }
+
+section.main { margin-top: 20px; margin-bottom: 30px; }
+
+section.main aside { width: 33%; float: left; text-align: center; }
+
+section.main aside div.content { margin: 15px; }
+
+section.main aside div.content h3 a::after { display: block; font-family: serif; font-weight: normal; }
+
+section.main aside div.content.trending::before { content:url(../images/icon_star_print.svg); }
+section.main aside div.content.find-it::before { content:url(../images/icon_marker_print.svg); }
+section.main aside div.content.tools::before { content:url(../images/icon_gear_print.svg); }
