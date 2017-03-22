@@ -360,6 +360,15 @@ footer a:hover { color: #000; }
     header div.hero { width: 300px; top: 85px; left: 130px; }
     header div.hero h1 { margin-bottom: 10px; }
 
+    /* Section - Main */
+    section.main aside { width: 100%; float: none; text-align: left; }
+    section.main aside div.content {
+        margin: 10px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+    }
+
 
     /* Navigation */
     nav { position: static; width: auto; padding: 20px 15px; background-color: #4b0a0c; }
